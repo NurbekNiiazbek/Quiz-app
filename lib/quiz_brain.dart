@@ -1,5 +1,3 @@
-// ignore_for_file: unused_import
-
 import 'dart:math';
 
 import 'package:flutter_project_06/examination.dart';
