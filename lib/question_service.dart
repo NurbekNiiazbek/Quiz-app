@@ -1,8 +1,8 @@
-import 'dart:math';
+import 'dart:developer';
 
 import 'package:flutter_project_06/examination.dart';
 
-class QuizBrain {
+class QuestionService {
   int _questionNumber = 0;
 
   final List<Question> _questionBank = [
@@ -17,8 +17,8 @@ class QuizBrain {
     if (_questionNumber <= _questionBank.length - 2) {
       _questionNumber++;
     }
-    log(_questionBank.length);
-    log(_questionNumber);
+    log(_questionBank.length as String);
+    log(_questionNumber as String);
   }
 
   String getQuestionText() {
